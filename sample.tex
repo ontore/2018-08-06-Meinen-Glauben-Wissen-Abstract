@@ -1,0 +1,84 @@
+% CHI Extended Abstracts template.
+% Tested with XeTeX on Mac OS X (Get it from http://tug.org/mactex)
+% The latest version is available at <http://manas.tungare.name/software/latex/>
+% 
+% Filename: chi-ext.cls
+% 
+% CHANGELOG:
+%   2010-10-18   Manas Tungare      Restored support for \figures.
+%   2010-08-09   Manas Tungare      Updated copyright info for CHI 2011
+%   2009-12-04   Stephen Voida      Updated copyright info for CHI 2010
+%   2008-11-25   Manas Tungare      Initial create.
+%   2009-11-17   Manas Tungare      Refactored the title & author sections.
+% 
+% LICENSE:
+%   Public domain: You are free to do whatever you want with this template.
+%   If you improve this in any way, please drop me a note <manas@tungare.name>,
+%   so I can share the updates with everyone.
+%   
+%   PLEASE RECONSIDER BEFORE FORKING THIS TEMPLATE; there are already
+%   several versions of the chiproceedings template for no good reason.
+%   DO NOT REDISTRIBUTE THIS FILE UNDER A DIFFERENT FILENAME unless you
+%   have a very good reason to change its name.
+
+\documentclass{chi-ext}
+
+\title{Mediation between Internalism and Externalism as informed by Computing and Creativity}
+
+\author{
+  \textbf{Oliver Hoffmann} \\
+  Bundesministerium für Verkehr, Innovation und Technologie \\
+  Wien, Österreich \\
+  oliver@hoffmann.org
+}
+
+\keywords{Keywords go here.}
+
+\acmclassification{H.5.2 Information Interfaces and Presentation: User interfaces –
+Evaluation/ methodology}
+
+\copyrightinfo{
+  Copyright is held by the author/owner(s). \\
+  \emph{submitted to Workshop zum Thema „Meinen, Glauben und Wissen im Spannungsfeld von Idealismus und Realismus“. \\
+}
+
+% Repeat author names (minus affiliations and addresses) and title here 
+% for PDF metadata.
+\hypersetup{
+  pdfauthor={Oliver Hoffmann},
+  pdfkeywords={philosophy, epistemology, knowledge, belief, opinion, information, creativity, computer, idealism, realism},
+  pdfsubject={philosophy},
+  pdftitle={Creativity and Computing as },
+}
+
+\begin{document}
+\maketitle
+
+\begin{multicols}{2}
+  
+\makeauthors
+\makecopyright
+
+\section{Abstract}
+
+\\
+
+\\
+
+\section{Keywords}
+\makeatletter \@keywords \makeatother
+
+\section{Introduction}
+
+\cite{kuhn1962structure}
+
+
+\section{Conclusion}
+
+
+\bibliography{papers}
+\bibliographystyle{apalike}
+
+\end{multicols}
+
+\end{document}
